@@ -3,7 +3,7 @@
 ## Usage
 
 ```
-% heroku create --buildpack https://github.com/jordansissel/heroku-buildpack-meteor.git
+% heroku create --buildpack https://github.com/rafaeldrs/heroku-buildpack-meteor.git
 ```
 
 ## Example
@@ -32,13 +32,13 @@ Initialized empty Git repository in /tmp/a/todos/.git/
 Create your heroku app
 
 ```
-% heroku create --buildpack https://github.com/jordansissel/heroku-buildpack-meteor.git
+% heroku create --buildpack https://github.com/rafaeldrs/heroku-buildpack-meteor.git
 ```
 
 Or if your Heroku app already exists
 
 ```
-% heroku buildpacks:set https://github.com/jordansissel/heroku-buildpack-meteor.git
+% heroku buildpacks:set https://github.com/rafaeldrs/heroku-buildpack-meteor.git
 ```
 
 Configure your plugins & settings
